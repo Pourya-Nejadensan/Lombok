@@ -11,7 +11,7 @@ public class Main {
         System.out.println(teacher);
         System.out.println(informatik);
 
-        pourya.setId(2);
+        pourya.setId(1);
         pourya.setName("Pourya");
         pourya.setAddress("Tehran");
         pourya.setGrade(2);
@@ -40,5 +40,11 @@ public class Main {
         System.out.println(ali);
         System.out.println(teacher2);
         System.out.println(mathematik);
+
+        System.out.println("---------------------------------------");
+
+        pourya = pourya.withAddress("Spannskamp");
+
+        System.out.println(pourya);
     }
 }
