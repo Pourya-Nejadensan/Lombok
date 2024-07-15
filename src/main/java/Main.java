@@ -7,5 +7,11 @@ public class Main {
         System.out.println(pourya);
         System.out.println(teacher);
         System.out.println(informatik);
+
+        pourya.setId(2);
+        pourya.setName("Pourya");
+        pourya.setAddress("Tehran");
+        pourya.setGrade(2);
+        System.out.println(pourya.toString());
     }
 }
